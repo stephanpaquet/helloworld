@@ -1,4 +1,29 @@
-# My first Composer project
+# A very basic Composer package
+
+## Installation
+
+### With Composer
+
+```
+$ composer require stephanpaquet/hello_world
+```
+
+```json
+{
+    "require": {
+        "stephanpaquet/hello_world": "~1.0.0"
+    }
+}
+```
+
+```php
+<?php
+require 'vendor/autoload.php';
+
+use HelloWorld\SayHello;
+
+echo SayHello::world();
+```
 
 
-http://blog.grossi.io/2013/creating-your-first-composer-packagist-package/
+- [ ] add some test
