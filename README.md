@@ -30,4 +30,9 @@ Hello World, Composer
 
 ```
 
+## Inspiration
+http://blog.grossi.io/2013/creating-your-first-composer-packagist-package/
+
+## Todo
+
 - [ ] add some test
